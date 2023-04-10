@@ -1,0 +1,43 @@
+
+nav{
+    button.navbar-toggler, button.navbar-toggler:focus{
+        border: none !important;
+        box-shadow: none;
+    }
+
+    a{
+        color: #1D2C63;
+        font-weight: 400;
+        &.active{
+            color: #5e36dd;
+            font-weight: bold;
+        }
+    }
+    
+    .logo{
+        width: 132px;
+    }
+
+    form button{
+        padding: .5rem .5rem;
+    }
+}
+
+@media (min-width: 575.98px) {
+    .collapse.navbar-collapse{
+        order: 2;
+    }
+
+    form{
+        order: 3;
+    }
+
+    button{
+        padding: .6rem 1.8rem !important;
+        font-size: 1rem;
+    }
+
+    li{
+        margin: 0 1rem;
+    }
+}

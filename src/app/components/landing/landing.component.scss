@@ -1,0 +1,53 @@
+.section-one{
+    height: calc(100vh - 57px);
+    background: url(../../../assets/images/landing-sm-one.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    > div{
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    h1{
+        font-size: 2.25rem;
+    }
+
+    button{
+        padding: 1rem 0;
+    }
+
+    img{
+        display: none;
+    }
+
+    p{
+        color: #1D2C63;;
+    }
+}
+
+@media (min-width: 575.98px) {
+    .section-one{
+        background: url(../../../assets/images/landing-lg-one.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: -57px;
+        height: 150vh;
+
+        > div{
+            justify-content: flex-start;
+            padding-top: 2rem;
+        }
+
+        h1{
+            font-size: 3.5rem;
+        }
+
+        button{
+            padding: .6rem 1.8rem;
+        }
+
+    }
+
+
+}

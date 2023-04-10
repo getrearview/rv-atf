@@ -1,0 +1,7 @@
+// Create you own map
+$custom-colors: (
+    "purple" : $purple
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
