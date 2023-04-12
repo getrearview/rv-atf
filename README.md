@@ -2,7 +2,7 @@
 
 # Install dependencies
 
-npm instal
+npm install
 
 # Serve project
 
